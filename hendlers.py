@@ -4,7 +4,7 @@ from aiogram.types import Message
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 
-from generation import generate
+from generation import *
 
 router = Router()
 
