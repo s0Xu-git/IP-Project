@@ -1,5 +1,5 @@
 from openai import AsyncOpenAI
-from run import token_ai
+from run import *
 
 client = AsyncOpenAI(
   base_url="https://openrouter.ai/api/v1",
